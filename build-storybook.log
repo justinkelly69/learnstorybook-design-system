@@ -1,0 +1,30 @@
+info @storybook/react v6.4.19
+info 
+info => Cleaning outputDir: /var/folders/fr/y6xxw9ns3zn4kvdpllztq0ph0000gq/T/chromatic--98536-gvlIPkUBpXmu
+(node:98550) DeprecationWarning: --static-dir CLI flag is deprecated, see:
+
+https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated---static-dir-cli-flag
+info => Loading presets
+info => Copying static files: ./public => ./
+info => Compiling manager..
+info => Compiling preview..
+info => Loading Webpack configuration from `node_modules/react-scripts`
+info => Removing existing JavaScript and TypeScript rules.
+info => Modifying Create React App rules.
+info => Using default Webpack4 setup
+ERR! WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ERR!  - configuration.entry should not contain the item '/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/addon-interactions/dist/esm/preset/argsEnhancers.js-generated-config-entry.js' twice.
+ERR!    -> A non-empty array of non-empty strings
+ERR!     at webpack (/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/webpack.js:31:9)
+ERR!     at Object.build (/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/builder-webpack4/dist/cjs/index.js:175:18)
+ERR!     at async Promise.all (index 1)
+ERR!     at async buildStaticStandalone (/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/core-server/dist/cjs/build-static.js:175:28)
+ERR!     at async buildStatic (/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
+ERR!  WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ERR!  - configuration.entry should not contain the item '/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/addon-interactions/dist/esm/preset/argsEnhancers.js-generated-config-entry.js' twice.
+ERR!    -> A non-empty array of non-empty strings
+ERR!     at webpack (/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/webpack.js:31:9)
+ERR!     at Object.build (/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/builder-webpack4/dist/cjs/index.js:175:18)
+ERR!     at async Promise.all (index 1)
+ERR!     at async buildStaticStandalone (/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/core-server/dist/cjs/build-static.js:175:28)
+ERR!     at async buildStatic (/Users/jkelly/dev/storybook/learnstorybook-design-system/node_modules/@storybook/core-server/dist/cjs/build-static.js:195:5)
