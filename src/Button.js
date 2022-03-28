@@ -50,10 +50,6 @@ const StyledButton = styled.button`
   opacity: 1;
   margin: 0;
   background: transparent;
-
-  border: 10px solid red;
-  font-size: 20px;
-
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
 
