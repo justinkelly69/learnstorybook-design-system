@@ -32,6 +32,7 @@ const SIZES = {
   MEDIUM: 'medium',
 };
 
+
 const StyledButton = styled.button`
   border-radius: 3em;
   cursor: pointer;
