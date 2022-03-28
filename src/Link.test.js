@@ -6,7 +6,7 @@ test("has a href attribute when rendering with linkWrapper", () => {
   const LinkWrapper = (props) => <a {...props} />;
   const { container } = render(
     <Link href="https://storybook.js.org/tutorials/" LinkWrapper={LinkWrapper}>
-      Link Text
+      Link Text Two
     </Link>
   );
 
@@ -14,5 +14,5 @@ test("has a href attribute when rendering with linkWrapper", () => {
     'a[href="https://storybook.js.org/tutorials/"]'
   );
   expect(linkElement).not.toBeNull();
-  expect(linkElement.textContent).toEqual("Link Text");
+  expect(linkElement.textContent).toEqual("Link Text Two");
 });
